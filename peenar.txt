@@ -1,0 +1,8 @@
+75 66 17
+2
+Tomat 3 4
+true false	true false	true false	true false	true true	true false	true false	true true	true true	true false	true true	
+true false	true false	true false	true false	true true	true true	false true	false true	false true	false false	false false	
+Kurk 2 7
+true false	true false	true false	true false	false false	true true	
+true false	true false	true false	true true	false false	true false	
