@@ -41,6 +41,10 @@ public class Taim {
     public int getKõrgus() {
         return kõrgus;
     }
+    
+    public int getMaxKõrgus() {
+    	return maxKõrgus;
+    }
 
     public List<List<Boolean>> getParempool() {
         return parempool;
@@ -50,7 +54,15 @@ public class Taim {
         return vasakpool;
     }
 
-    @Override
+    public void setParempool(List<List<Boolean>> parempool) {
+		this.parempool = parempool;
+	}
+
+	public void setVasakpool(List<List<Boolean>> vasakpool) {
+		this.vasakpool = vasakpool;
+	}
+
+	@Override
     public String toString() {
         return "Taim{" +
                 "nimetus='" + nimetus + '\'' +
