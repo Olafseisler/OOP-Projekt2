@@ -17,8 +17,7 @@ public class Peenar {
     }
 
     public boolean kasKasvab(){
-//        return 2 * Math.random() * (niiskus/100.0) * (toitained/100.0) > 0.3;
-        return true;
+        return 10 * Math.random() * (niiskus/100.0) * (toitained/100.0) > 0.3;
     }
 
     public void kasvata(){
@@ -34,7 +33,7 @@ public class Peenar {
         kuiva();
 
 
-
+        System.out.println(this.toString());
     }
 
     public void külva(Taim taim){
